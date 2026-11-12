@@ -1922,5 +1922,953 @@ window.TESTS = [
     {term:"have a … climate", type:"structure", mean:"có khí hậu…", ex:"Da Lat has a cool climate all year round."},
     {term:"there is little / there are few", type:"structure", mean:"có rất ít (không đếm được / đếm được)", ex:"There is little water and there are few trees."}
   ]
+},
+{
+  code: "RFIB0024",
+  category: "Education",
+  level: "Easy",
+  hidden: false,
+  type: "Drag and Drop – Fill in the Blanks",
+  topic: "Study skills · Reading research critically",
+  minutes: 5,
+  warmup: {
+    questions: [
+      "Khi tìm tài liệu cho bài luận, bạn chọn nguồn (sources) như thế nào?",
+      "Làm sao để biết một nghiên cứu (research) có đáng tin cậy (credible) hay không?"
+    ],
+    intro: "Đoạn văn là phần mở đầu của một hướng dẫn học thuật, giải thích bước tiếp theo sau khi đã tìm được tài liệu nghiên cứu. Khi đọc, hãy để ý những việc người học cần làm với tài liệu đó."
+  },
+  passage: [
+    "Having tracked down research that is", {b:"1"},
+    "to your area of interest, the next task is to actually", {b:"2"},
+    "of that research. This section is intended to show you how to be critical of the research you", {b:"3"},
+    "and how to check that the", {b:"4"},
+    "is credible and represented appropriately. Unfortunately this means discussing the ways in which research findings may be misrepresented."
+  ],
+  words: ["make sense","have fun","statement","are reviewing","acceptable","relevant","evidence"],
+  answers: {"1":"relevant","2":"make sense","3":"are reviewing","4":"evidence"},
+  explain: {
+    "1": {
+      ctx: "…research that is ___ to your area of interest…",
+      grammar: [
+        "Sau <b>is</b> cần <b>tính từ</b>; phía sau là giới từ <b>to</b>.",
+        "Tính từ trong hộp: <i>relevant, acceptable</i>."
+      ],
+      keep: ["relevant","acceptable"],
+      vocab: [
+        "<b>relevant to sth</b> = liên quan, phù hợp với. <i>Research relevant to your area of interest</i> = tài liệu liên quan đến lĩnh vực bạn quan tâm.",
+        "<i>acceptable to sb</i> = chấp nhận được đối với ai. Không đi với \"lĩnh vực quan tâm\"."
+      ]
+    },
+    "2": {
+      ctx: "…the next task is to actually ___ of that research.",
+      grammar: [
+        "Sau <b>to (actually)</b> cần <b>động từ nguyên thể</b>; phía sau là <b>of</b>.",
+        "Cụm động từ nguyên thể: <i>make sense, have fun</i>. Chỉ <i>make sense <b>of</b></i> đi với <i>of</i>."
+      ],
+      keep: ["make sense"],
+      vocab: [
+        "<b>make sense of sth</b> = hiểu được, nắm được ý nghĩa của điều gì (thường là thứ phức tạp).",
+        "Phân biệt: <i>sth makes sense</i> = điều gì hợp lý; <i>make sense <b>of</b> sth</i> = (người) hiểu được điều gì."
+      ]
+    },
+    "3": {
+      ctx: "…how to be critical of the research you ___ and how to check…",
+      grammar: [
+        "Mệnh đề quan hệ rút gọn <i>the research (that) you ___</i> → cần <b>động từ chia</b> với <i>you</i>, có tân ngữ là <i>the research</i>.",
+        "Còn lại: <i>are reviewing</i>."
+      ],
+      keep: ["are reviewing"],
+      vocab: [
+        "<b>review research</b> = xem xét, đánh giá tài liệu nghiên cứu. Thì hiện tại tiếp diễn nhấn vào việc <b>đang làm</b> ở giai đoạn này."
+      ]
+    },
+    "4": {
+      ctx: "…how to check that the ___ is credible and represented appropriately.",
+      grammar: [
+        "Sau <b>the</b> cần <b>danh từ</b>; động từ <i>is</i> → số ít hoặc không đếm được.",
+        "Còn lại: <i>evidence, statement</i>."
+      ],
+      keep: ["evidence","statement"],
+      vocab: [
+        "<b>credible evidence</b> = bằng chứng đáng tin cậy. Trong nghiên cứu, thứ cần kiểm tra độ tin cậy là <b>bằng chứng</b>.",
+        "<i>statement</i> (lời tuyên bố) là đếm được, và câu cuối nói về <i>research findings</i> (kết quả nghiên cứu), tức là bằng chứng."
+      ]
+    }
+  },
+  collocations: [
+    {a:"track", b:"down"},
+    {a:"area of", b:"interest"},
+    {a:"make sense", b:"of"},
+    {a:"be critical", b:"of"},
+    {a:"credible", b:"evidence"},
+    {a:"research", b:"findings"}
+  ],
+  vocabulary: [
+    {term:"track down", type:"phrasal verb", mean:"tìm ra, lần ra (sau khi tìm kiếm)", ex:"I finally tracked down the book in an old library."},
+    {term:"relevant to", type:"adj + prep", mean:"liên quan, phù hợp với", ex:"Only include examples relevant to the topic."},
+    {term:"make sense of", type:"phrase", mean:"hiểu được, nắm được ý nghĩa", ex:"I can't make sense of these instructions."},
+    {term:"be critical of", type:"phrase", mean:"có cái nhìn phản biện về, phê phán", ex:"Good students are critical of what they read online."},
+    {term:"credible", type:"adjective", mean:"đáng tin cậy", ex:"Use credible sources in your essay."}
+  ]
+},
+{
+  code: "RFIB0029",
+  category: "Education",
+  level: "Medium",
+  hidden: false,
+  type: "Drag and Drop – Fill in the Blanks",
+  topic: "Language learning · Steps to fluency",
+  minutes: 5,
+  warmup: {
+    questions: [
+      "Bạn đặt ra mục tiêu (goals) như thế nào khi học tiếng Anh?",
+      "Theo bạn, điều gì quan trọng nhất để học giỏi một ngoại ngữ (a new language)?"
+    ],
+    intro: "Đoạn văn đưa ra các giai đoạn để học một ngôn ngữ mới cho đến khi thành thạo (proficiency). Khi đọc, hãy để ý thứ tự các bước tác giả gợi ý."
+  },
+  passage: [
+    "Many people like to learn a new language. As", {b:"1"},
+    "it sounds, to achieve the proficiency it can take a lot of efforts. There are multiple stages before a person can be said to be a language expert. First of all, the person should set a few", {b:"2"},
+    "goals and narrow the focus on the most basic part. Every language uses grammar, which creates its skeleton. If a person learns the grammar, it's half job done. After that, learning to use the right words is very", {b:"3"},
+    ", because a word can be used in a variety of connotations at different places. Having a pal or a friend who speaks that language makes the task easier, so that errors could be", {b:"4"},
+    "instantly. When you understand at least 40% of the words and sentences, listening to the programs and news in that language can also help immensely. All in all, it's about the", {b:"5"},
+    "and efforts taken with the right techniques."
+  ],
+  words: ["enhanced","exciting","important","long-term","short-term","rectified","devotion","dedication"],
+  answers: {"1":"exciting","2":"short-term","3":"important","4":"rectified","5":"dedication"},
+  explain: {
+    "1": {
+      ctx: "As ___ it sounds, to achieve the proficiency it can take a lot of efforts.",
+      grammar: [
+        "Cấu trúc nhượng bộ đảo ngữ <b>As + adj + S + V</b> (= Although it sounds + adj) → cần <b>tính từ</b>.",
+        "Tính từ trong hộp: <i>exciting, important, long-term, short-term</i>."
+      ],
+      keep: ["exciting","important","long-term","short-term"],
+      vocab: [
+        "<i>As exciting as it sounds</i> = dù nghe có vẻ thú vị đến đâu. Vế sau đối lập: <b>cần rất nhiều nỗ lực</b>.",
+        "Câu trước nói nhiều người <b>thích</b> học ngoại ngữ → <b>exciting</b> nối tiếp tự nhiên. <i>long-term/short-term</i> không dùng để tả cảm giác \"nghe có vẻ\"."
+      ]
+    },
+    "2": {
+      ctx: "…should set a few ___ goals and narrow the focus on the most basic part.",
+      grammar: [
+        "Giữa <i>a few</i> và danh từ <i>goals</i> cần <b>tính từ</b>."
+      ],
+      keep: ["short-term","long-term","exciting","important"],
+      vocab: [
+        "<b>short-term goals</b> = mục tiêu ngắn hạn. Manh mối: <i>First of all</i> (bước đầu tiên) và <i>narrow the focus on the most basic part</i> (tập trung vào phần cơ bản nhất).",
+        "Bẫy <b>long-term</b>: mục tiêu dài hạn không đi với ý \"thu hẹp, bắt đầu từ phần cơ bản\"."
+      ]
+    },
+    "3": {
+      ctx: "…learning to use the right words is very ___, because a word can be used in a variety of connotations…",
+      grammar: [
+        "Sau <b>is very</b> cần <b>tính từ</b>: <i>important, exciting</i> (<i>short-term</i> đã dùng)."
+      ],
+      keep: ["important","exciting"],
+      vocab: [
+        "<b>very important</b>: vế sau <i>because…</i> đưa ra <b>lý do</b> vì sao việc dùng đúng từ là cần thiết: một từ có nhiều sắc thái nghĩa.",
+        "<i>exciting</i> đã dùng ở ô 1, và lý do phía sau không nói về sự thú vị."
+      ]
+    },
+    "4": {
+      ctx: "…so that errors could be ___ instantly.",
+      grammar: [
+        "<b>could be + V3</b> → câu bị động, cần <b>phân từ II</b>: <i>rectified, enhanced</i>."
+      ],
+      keep: ["rectified","enhanced"],
+      vocab: [
+        "<b>rectify errors</b> = sửa lỗi (trang trọng hơn <i>correct</i>). Có bạn nói ngôn ngữ đó thì lỗi được <b>sửa ngay</b>.",
+        "<i>enhanced</i> = được nâng cao, cải thiện. Không ai muốn \"nâng cao lỗi sai\"."
+      ]
+    },
+    "5": {
+      ctx: "All in all, it's about the ___ and efforts taken with the right techniques.",
+      grammar: [
+        "Sau <b>the</b> cần <b>danh từ</b>, nối với <i>efforts</i> bằng <i>and</i>: <i>dedication, devotion</i>."
+      ],
+      keep: ["dedication","devotion"],
+      vocab: [
+        "<b>dedication</b> = sự tận tâm, kiên trì <b>theo đuổi một mục tiêu</b> (dedication to your studies). Hay đi cùng <i>effort, hard work</i>.",
+        "Bẫy <b>devotion</b>: = sự tận tuỵ, <b>yêu thương hết lòng</b>, thường dành cho người, tôn giáo (devotion to her family). Mang sắc thái tình cảm hơn, ít dùng cho việc học."
+      ]
+    }
+  },
+  collocations: [
+    {a:"achieve", b:"proficiency"},
+    {a:"short-term", b:"goals"},
+    {a:"narrow the", b:"focus"},
+    {a:"rectify", b:"errors"},
+    {a:"dedication", b:"and effort"},
+    {a:"help", b:"immensely"}
+  ],
+  vocabulary: [
+    {term:"proficiency", type:"noun", mean:"sự thành thạo", ex:"You need a certificate of English proficiency."},
+    {term:"short-term goal", type:"noun phrase", mean:"mục tiêu ngắn hạn", ex:"My short-term goal is to learn 10 new words a day."},
+    {term:"connotation", type:"noun", mean:"sắc thái nghĩa, nghĩa hàm ẩn", ex:"'Cheap' has a negative connotation; 'affordable' does not."},
+    {term:"rectify", type:"verb · formal", mean:"sửa chữa (lỗi, sai sót)", ex:"The company quickly rectified the mistake."},
+    {term:"dedication", type:"noun", mean:"sự tận tâm, kiên trì", ex:"Her dedication to practice made her a great pianist."}
+  ]
+},
+{
+  code: "RFIB0044",
+  category: "Others",
+  level: "Medium",
+  hidden: false,
+  type: "Drag and Drop – Fill in the Blanks",
+  topic: "Psychology · Fear of conflict",
+  minutes: 5,
+  warmup: {
+    questions: [
+      "Khi bất đồng ý kiến với bạn bè, bạn thường nói thẳng hay tránh né (avoid)?",
+      "Vì sao nhiều người sợ xung đột (conflict)?"
+    ],
+    intro: "Đoạn văn bàn về lý do nhiều người, đặc biệt trong một nhóm làm việc, sợ những cuộc xung đột công khai (open conflict). Khi đọc, hãy để ý những nỗi sợ cụ thể mà tác giả nhắc tới."
+  },
+  passage: [
+    "Most of us are", {b:"1"},
+    "of open conflict and avoid it if we can. And there is a", {b:"2"},
+    "to expressing and working through conflict. If the working involves harsh words and name-calling people fell deeply hurt and relationships can be", {b:"3"},
+    ". Some group members may be afraid that if they really", {b:"4"},
+    "their anger, they may go out of control and become violent, or they may do this. These fears can be very", {b:"5"},
+    "and based on experience."
+  ],
+  words: ["routine","rein","damaged","culminated","scared","real","reminiscent","express","risk","opaque"],
+  answers: {"1":"scared","2":"risk","3":"damaged","4":"express","5":"real"},
+  explain: {
+    "1": {
+      ctx: "Most of us are ___ of open conflict and avoid it if we can.",
+      grammar: [
+        "Sau <b>are</b> cần <b>tính từ</b>; phía sau là giới từ <b>of</b>.",
+        "<i>scared of</i> và <i>reminiscent of</i> là hai cụm tính từ + <i>of</i> trong hộp."
+      ],
+      keep: ["scared","reminiscent"],
+      vocab: [
+        "<b>be scared of</b> = sợ. Manh mối: <i>avoid it if we can</i> (tránh nếu có thể).",
+        "Bẫy <b>reminiscent of</b>: = gợi nhớ đến (This song is reminiscent of my childhood). Đúng ngữ pháp nhưng sai nghĩa."
+      ]
+    },
+    "2": {
+      ctx: "And there is a ___ to expressing and working through conflict.",
+      grammar: [
+        "Sau <b>there is a</b> cần <b>danh từ đếm được số ít</b>; phía sau là <i>to + V-ing</i>.",
+        "Danh từ: <i>risk, rein, routine</i>."
+      ],
+      keep: ["risk","rein","routine"],
+      vocab: [
+        "<b>a risk to (doing) sth</b> = rủi ro khi làm gì. Câu sau giải thích ngay rủi ro: lời lẽ nặng nề làm tổn thương, phá vỡ mối quan hệ.",
+        "<i>rein</i> = dây cương (give free rein to = buông lỏng). <i>routine</i> = thói quen thường ngày. Không hợp nghĩa."
+      ]
+    },
+    "3": {
+      ctx: "…people fell deeply hurt and relationships can be ___.",
+      grammar: [
+        "<b>can be + V3</b> → bị động: <i>damaged, culminated</i>."
+      ],
+      keep: ["damaged","culminated"],
+      vocab: [
+        "<b>relationships can be damaged</b> = các mối quan hệ có thể bị tổn hại. Cùng chiều với <i>deeply hurt</i>.",
+        "Bẫy <b>culminated</b>: <i>culminate in sth</i> = lên đến đỉnh điểm, kết thúc bằng. Là nội động từ, không dùng ở bị động."
+      ]
+    },
+    "4": {
+      ctx: "…afraid that if they really ___ their anger, they may go out of control…",
+      grammar: [
+        "Mệnh đề <i>if they (really) ___</i> cần <b>động từ</b> chia với <i>they</i>; có tân ngữ <i>their anger</i>.",
+        "Động từ nguyên thể: <i>express, rein</i>."
+      ],
+      keep: ["express","rein"],
+      vocab: [
+        "<b>express anger</b> = bộc lộ sự tức giận. Sợ rằng bộc lộ thật sự thì sẽ mất kiểm soát.",
+        "Bẫy <b>rein</b>: <i>rein in your anger</i> = <b>kìm nén</b> cơn giận, ngược nghĩa, và cần thêm <i>in</i>."
+      ]
+    },
+    "5": {
+      ctx: "These fears can be very ___ and based on experience.",
+      grammar: [
+        "Sau <b>can be very</b> cần <b>tính từ</b>: <i>real, opaque</i>."
+      ],
+      keep: ["real","opaque"],
+      vocab: [
+        "<b>very real</b> = rất thật, có cơ sở. Đi cùng <i>based on experience</i> (dựa trên trải nghiệm thực tế).",
+        "<i>opaque</i> = mờ đục, khó hiểu. Không đi với <i>based on experience</i>."
+      ]
+    }
+  },
+  collocations: [
+    {a:"open", b:"conflict"},
+    {a:"work through", b:"conflict"},
+    {a:"harsh", b:"words"},
+    {a:"deeply", b:"hurt"},
+    {a:"express", b:"anger"},
+    {a:"go out", b:"of control"}
+  ],
+  vocabulary: [
+    {term:"be scared of", type:"phrase", mean:"sợ", ex:"Many children are scared of the dark."},
+    {term:"work through", type:"phrasal verb", mean:"giải quyết dần, vượt qua (vấn đề)", ex:"They worked through their problems together."},
+    {term:"name-calling", type:"noun", mean:"việc chửi rủa, gọi tên miệt thị", ex:"Name-calling is not allowed in class."},
+    {term:"express anger", type:"collocation", mean:"bộc lộ sự tức giận", ex:"It's healthy to express anger calmly."},
+    {term:"go out of control", type:"phrase", mean:"mất kiểm soát", ex:"The fire went out of control very quickly."}
+  ]
+},
+{
+  code: "RFIB0059",
+  category: "Science",
+  level: "Hard",
+  hidden: false,
+  type: "Drag and Drop – Fill in the Blanks",
+  topic: "Technology · The myth of multitasking",
+  minutes: 5,
+  warmup: {
+    questions: [
+      "Bạn có hay vừa học vừa lướt mạng hay nhắn tin (multitasking) không?",
+      "Theo bạn, làm nhiều việc cùng lúc giúp tiết kiệm thời gian hay làm giảm hiệu quả?"
+    ],
+    intro: "Đoạn văn tóm tắt một nghiên cứu của Đại học Stanford về việc làm nhiều việc cùng lúc trên Internet. Khi đọc, hãy để ý kết luận bất ngờ của các nhà nghiên cứu."
+  },
+  passage: [
+    "Training does not improve the ability to", {b:"1"},
+    ". In 2009 Eyal Ophir, and then at Stanford University, and his colleagues discovered that multitasking on the Internet paradoxically makes users less effective at", {b:"2"},
+    "from one task to another. They are less able to", {b:"3"},
+    "their attention and are too vulnerable to distractions. Consequently, even members of the \"digital native\" generation are unlikely to develop the cognitive", {b:"4"},
+    "needed to divide their time between various tasks or to instantly jump from one activity to another. In other words, digital multitasking does little more than produce a dangerous illusion of", {b:"5"},
+    "."
+  ],
+  words: ["multitask","alternating","competence","switching","allocate","converge","control"],
+  answers: {"1":"multitask","2":"switching","3":"allocate","4":"control","5":"competence"},
+  explain: {
+    "1": {
+      ctx: "Training does not improve the ability to ___.",
+      grammar: [
+        "Sau <b>the ability to</b> cần <b>động từ nguyên thể</b>. Câu kết thúc ngay sau ô trống → cần <b>nội động từ</b> (không có tân ngữ).",
+        "<i>allocate</i> là ngoại động từ (cần tân ngữ) → loại. Còn lại: <i>multitask, converge</i>."
+      ],
+      keep: ["multitask","converge"],
+      vocab: [
+        "<b>multitask</b> (v) = làm nhiều việc cùng lúc. Cả đoạn văn nói về <i>multitasking</i>.",
+        "<i>converge</i> = hội tụ, gặp nhau tại một điểm. Không hợp chủ đề."
+      ]
+    },
+    "2": {
+      ctx: "…makes users less effective at ___ from one task to another.",
+      grammar: [
+        "Sau giới từ <b>at</b> cần <b>V-ing</b>: <i>switching, alternating</i>."
+      ],
+      keep: ["switching","alternating"],
+      vocab: [
+        "<b>switch from A to B</b> = chuyển (nhanh) từ việc này sang việc khác. Cụm <i>task switching</i> là thuật ngữ trong tâm lý học.",
+        "Bẫy <b>alternating</b>: <i>alternate between A and B</i> = luân phiên giữa A và B. Đi với <i>between… and</i>, không đi với <i>from… to</i>."
+      ]
+    },
+    "3": {
+      ctx: "They are less able to ___ their attention…",
+      grammar: [
+        "Sau <b>be able to</b> cần <b>động từ nguyên thể</b>; có tân ngữ <i>their attention</i> → ngoại động từ: <i>allocate, control</i>."
+      ],
+      keep: ["allocate","control"],
+      vocab: [
+        "<b>allocate attention</b> = phân bổ sự chú ý (cho từng việc). Đây là kỹ năng cốt lõi khi chia thời gian giữa nhiều nhiệm vụ.",
+        "<i>control their attention</i> cũng đúng ngữ pháp và nghĩa, nhưng ô 4 chỉ có thể là <i>control</i> (danh từ trong <i>cognitive control</i>). Vì vậy dành <i>allocate</i> cho ô này."
+      ]
+    },
+    "4": {
+      ctx: "…unlikely to develop the cognitive ___ needed to divide their time…",
+      grammar: [
+        "Sau tính từ <i>cognitive</i> cần <b>danh từ</b>: <i>control, competence</i>."
+      ],
+      keep: ["control","competence"],
+      vocab: [
+        "<b>cognitive control</b> = khả năng kiểm soát nhận thức (điều khiển sự chú ý, chuyển đổi giữa các việc). Đây là thuật ngữ khoa học cố định.",
+        "<i>competence</i> được dành cho thành ngữ ở ô 5."
+      ]
+    },
+    "5": {
+      ctx: "…digital multitasking does little more than produce a dangerous illusion of ___.",
+      grammar: [
+        "Sau <b>of</b> cần <b>danh từ</b>: <i>competence</i>."
+      ],
+      keep: ["competence"],
+      vocab: [
+        "<b>an illusion of competence</b> = ảo tưởng rằng mình giỏi, có năng lực. Người làm nhiều việc cùng lúc <b>tưởng</b> mình hiệu quả, nhưng thực ra không.",
+        "Từ <i>paradoxically</i> (một cách nghịch lý) ở đầu bài chuẩn bị cho kết luận này."
+      ]
+    }
+  },
+  collocations: [
+    {a:"switch from one task", b:"to another"},
+    {a:"allocate", b:"attention"},
+    {a:"cognitive", b:"control"},
+    {a:"an illusion", b:"of competence"},
+    {a:"digital", b:"native"},
+    {a:"vulnerable", b:"to distractions"}
+  ],
+  vocabulary: [
+    {term:"multitask", type:"verb", mean:"làm nhiều việc cùng lúc", ex:"I can't multitask while I'm studying."},
+    {term:"paradoxically", type:"adverb", mean:"một cách nghịch lý", ex:"Paradoxically, the more choices we have, the less happy we feel."},
+    {term:"allocate", type:"verb", mean:"phân bổ, phân chia", ex:"Allocate more time to the hardest questions."},
+    {term:"be vulnerable to", type:"phrase", mean:"dễ bị tổn thương bởi, dễ bị ảnh hưởng bởi", ex:"Children are vulnerable to online advertising."},
+    {term:"illusion", type:"noun", mean:"ảo tưởng, ảo giác", ex:"Social media gives an illusion of a perfect life."}
+  ]
+},
+{
+  code: "RFIB0066",
+  category: "Education",
+  level: "Easy",
+  hidden: false,
+  type: "Drag and Drop – Fill in the Blanks",
+  topic: "History · The school curriculum",
+  minutes: 5,
+  warmup: {
+    questions: [
+      "Sách lịch sử (history books) có kể lại tất cả mọi sự kiện đã xảy ra không?",
+      "Theo bạn, ai nên quyết định học sinh được học những gì trong môn Lịch sử?"
+    ],
+    intro: "Đoạn văn nói về tính chọn lọc của lịch sử và một cuộc tranh luận lớn ở Anh cuối thập niên 1980 về chương trình học môn Lịch sử (history curriculum). Khi đọc, hãy để ý những ai đã tham gia cuộc tranh luận này."
+  },
+  passage: [
+    "History is selective. What history books tell us about the past is not everything that happened, but what historians have", {b:"1"},
+    ". They cannot put in everything: choices have to be made. Choices must similarly be made about which aspects of the past should be formally taught to the next generation in the shape of school history lessons. So, for example, when a national school curriculum for England and Wales was first discussed at the end of the 1980s, the history curriculum was the subject of considerable public and media", {b:"2"},
+    ". Politicians argued about it; people wrote letters to the press about it; the Prime Minister of the time, Margaret Thatcher,", {b:"3"},
+    "in the debate."
+  ],
+  words: ["passion","interest","screened","paused","selected","intervened"],
+  answers: {"1":"selected","2":"interest","3":"intervened"},
+  explain: {
+    "1": {
+      ctx: "…but what historians have ___.",
+      grammar: [
+        "<b>have + V3</b> → thì hiện tại hoàn thành, cần <b>phân từ II</b>.",
+        "Phân từ trong hộp: <i>screened, paused, selected, intervened</i>."
+      ],
+      keep: ["screened","paused","selected","intervened"],
+      vocab: [
+        "<b>selected</b> = đã chọn lọc. Manh mối ngay câu đầu: <i>History is <b>selective</b></i> và câu sau: <i>choices have to be made</i>.",
+        "Bẫy <b>screened</b>: <i>screen</i> = sàng lọc, kiểm tra (screen patients, screen job applicants) hoặc chiếu phim. Không khớp với từ <i>selective</i> ở đầu bài như <i>selected</i>."
+      ]
+    },
+    "2": {
+      ctx: "…the subject of considerable public and media ___.",
+      grammar: [
+        "Sau các từ bổ nghĩa <i>public and media</i> cần <b>danh từ</b>: <i>interest, passion</i>."
+      ],
+      keep: ["interest","passion"],
+      vocab: [
+        "<b>public interest / media interest</b> = sự quan tâm của công chúng / truyền thông. <i>the subject of considerable interest</i> là cụm rất hay gặp.",
+        "<i>passion</i> = niềm đam mê. Không đi tự nhiên với <i>public and media</i>."
+      ]
+    },
+    "3": {
+      ctx: "…the Prime Minister of the time, Margaret Thatcher, ___ in the debate.",
+      grammar: [
+        "Câu cần <b>động từ chính</b> ở quá khứ đơn (cùng thì với <i>argued, wrote</i>). Phía sau là <b>in</b> → nội động từ: <i>intervened, paused</i>."
+      ],
+      keep: ["intervened","paused"],
+      vocab: [
+        "<b>intervene in sth</b> = can thiệp vào. Ngay cả Thủ tướng cũng can thiệp vào cuộc tranh luận, cho thấy vấn đề quan trọng đến mức nào.",
+        "<i>paused in the debate</i> (tạm dừng trong cuộc tranh luận) không phù hợp với chuỗi các hành động tham gia tích cực phía trước."
+      ]
+    }
+  },
+  collocations: [
+    {a:"national school", b:"curriculum"},
+    {a:"public", b:"interest"},
+    {a:"intervene", b:"in the debate"},
+    {a:"the next", b:"generation"},
+    {a:"write letters", b:"to the press"},
+    {a:"choices have", b:"to be made"}
+  ],
+  vocabulary: [
+    {term:"selective", type:"adjective", mean:"có chọn lọc", ex:"This university is very selective about its students."},
+    {term:"curriculum", type:"noun", mean:"chương trình học", ex:"Coding is now part of the school curriculum."},
+    {term:"considerable", type:"adjective", mean:"đáng kể, khá lớn", ex:"The project cost a considerable amount of money."},
+    {term:"intervene in", type:"verb + prep", mean:"can thiệp vào", ex:"The teacher intervened in the fight."},
+    {term:"of the time", type:"phrase", mean:"thời đó, đương thời", ex:"The president of the time supported the plan."}
+  ]
+},
+{
+  code: "RFIB0078",
+  category: "Education",
+  level: "Easy",
+  hidden: false,
+  type: "Drag and Drop – Fill in the Blanks",
+  topic: "Exam skills · Managing your time",
+  minutes: 5,
+  warmup: {
+    questions: [
+      "Khi đi thi, bạn có hay bị thiếu thời gian (run out of time) không?",
+      "Bạn làm gì khi gặp một câu hỏi không biết trả lời?"
+    ],
+    intro: "Đoạn văn đưa ra lời khuyên để phân bổ thời gian hợp lý trong phòng thi. Khi đọc, hãy để ý những điều tác giả khuyên nên làm và không nên làm."
+  },
+  passage: [
+    "You have about 30 minutes to answer each question. You must take account of how many marks are", {b:"1"},
+    "for each part when you answer it. Even if you think you can write more, don't spend 15 minutes", {b:"2"},
+    "a part worth only 5 marks. Leave space at the end of your answer and come back to it if you have", {b:"3"},
+    "to spare later. And if you can't think of an answer to some part, leave a space and move on to the next part. Don't write about something else if you don't know the correct answer — this is just a waste of your", {b:"4"},
+    "time (and the examiner's)."
+  ],
+  words: ["time","accelerated","routine","valuable","answering","available"],
+  answers: {"1":"available","2":"answering","3":"time","4":"valuable"},
+  explain: {
+    "1": {
+      ctx: "…take account of how many marks are ___ for each part…",
+      grammar: [
+        "Sau <b>are</b> cần <b>tính từ</b> (hoặc phân từ): <i>available, valuable, accelerated, routine</i>."
+      ],
+      keep: ["available","valuable","accelerated","routine"],
+      vocab: [
+        "<b>marks are available</b> = số điểm có thể đạt được cho mỗi phần. Cách nói chuẩn trong đề thi tiếng Anh.",
+        "<i>valuable</i> dành cho ô 4 (<i>valuable time</i>)."
+      ]
+    },
+    "2": {
+      ctx: "…don't spend 15 minutes ___ a part worth only 5 marks.",
+      grammar: [
+        "Cấu trúc <b>spend + thời gian + V-ing</b> → cần <b>V-ing</b>: <i>answering</i>."
+      ],
+      keep: ["answering"],
+      vocab: [
+        "<b>spend time doing sth</b> = dành thời gian làm gì. <i>Don't spend 15 minutes answering a part worth only 5 marks</i> = đừng mất 15 phút cho phần chỉ đáng 5 điểm."
+      ]
+    },
+    "3": {
+      ctx: "…come back to it if you have ___ to spare later.",
+      grammar: [
+        "Sau <b>have</b> cần <b>danh từ</b> làm tân ngữ; không có mạo từ → danh từ không đếm được: <i>time</i>."
+      ],
+      keep: ["time","routine"],
+      vocab: [
+        "<b>have time to spare</b> = còn dư thời gian. Cụm cố định.",
+        "<i>routine</i> (thói quen) không \"dư ra\" được."
+      ]
+    },
+    "4": {
+      ctx: "…this is just a waste of your ___ time (and the examiner's).",
+      grammar: [
+        "Giữa <i>your</i> và danh từ <i>time</i> cần <b>tính từ</b>: <i>valuable, routine, accelerated</i>."
+      ],
+      keep: ["valuable","routine","accelerated"],
+      vocab: [
+        "<b>a waste of your valuable time</b> = lãng phí thời gian quý báu của bạn. Collocation rất phổ biến.",
+        "<i>accelerated time</i> (thời gian bị tăng tốc) và <i>routine time</i> không có nghĩa trong ngữ cảnh này."
+      ]
+    }
+  },
+  collocations: [
+    {a:"take account", b:"of"},
+    {a:"marks are", b:"available"},
+    {a:"have time", b:"to spare"},
+    {a:"move on", b:"to the next part"},
+    {a:"a waste of", b:"time"},
+    {a:"valuable", b:"time"}
+  ],
+  vocabulary: [
+    {term:"take account of", type:"phrase", mean:"tính đến, xem xét đến", ex:"Take account of the weather when you plan the trip."},
+    {term:"spend time doing", type:"structure", mean:"dành thời gian làm gì", ex:"I spend an hour reading every night."},
+    {term:"have time to spare", type:"phrase", mean:"còn dư thời gian", ex:"We arrived early and had time to spare."},
+    {term:"move on to", type:"phrasal verb", mean:"chuyển sang (việc tiếp theo)", ex:"Let's move on to the next question."},
+    {term:"valuable", type:"adjective", mean:"quý giá", ex:"Thank you for your valuable advice."}
+  ]
+},
+{
+  code: "RFIB0087",
+  category: "Education",
+  level: "Easy",
+  hidden: false,
+  type: "Drag and Drop – Fill in the Blanks",
+  topic: "Study habits · Arts and science students",
+  minutes: 5,
+  warmup: {
+    questions: [
+      "Theo bạn, sinh viên khối xã hội (arts) và khối tự nhiên (science) có thói quen học khác nhau không?",
+      "Bạn thích đọc nhiều loại sách khác nhau hay đọc kỹ một vài cuốn?"
+    ],
+    intro: "Đoạn văn ngắn tóm tắt kết quả một cuộc khảo sát về thói quen học tập (study habits) của sinh viên đại học. Khi đọc, hãy để ý sự khác biệt giữa hai nhóm sinh viên."
+  },
+  passage: [
+    "An investigation into the study habits of undergraduates was carried out by a", {b:"1"},
+    "of researchers at a number of different universities. In all the universities", {b:"2"},
+    "in the study, it was found that there were the", {b:"3"},
+    "significant differences between the habits of arts and science students. Not surprisingly perhaps, arts students read more", {b:"4"},
+    ", while science students tended to concentrate on a few", {b:"5"},
+    "texts."
+  ],
+  words: ["core","deeply","only","participating","same","team","widely","working"],
+  answers: {"1":"team","2":"participating","3":"same","4":"widely","5":"core"},
+  explain: {
+    "1": {
+      ctx: "…was carried out by a ___ of researchers…",
+      grammar: [
+        "Sau <b>a</b> và trước <b>of</b> cần <b>danh từ đếm được số ít</b>: <i>team</i>."
+      ],
+      keep: ["team"],
+      vocab: [
+        "<b>a team of researchers</b> = một nhóm nhà nghiên cứu. Collocation rất phổ biến."
+      ]
+    },
+    "2": {
+      ctx: "In all the universities ___ in the study…",
+      grammar: [
+        "Sau danh từ <i>universities</i> cần <b>V-ing</b> để rút gọn mệnh đề quan hệ chủ động: <i>universities (which were) ___ in the study</i>.",
+        "V-ing trong hộp: <i>participating, working</i>."
+      ],
+      keep: ["participating","working"],
+      vocab: [
+        "<b>participate in sth</b> = tham gia vào. <i>The universities participating in the study</i> = các trường tham gia cuộc nghiên cứu.",
+        "<i>working in the study</i> nghĩa là \"làm việc trong phòng làm việc\" (study = phòng học), sai nghĩa."
+      ]
+    },
+    "3": {
+      ctx: "…there were the ___ significant differences between the habits of arts and science students.",
+      grammar: [
+        "Giữa <b>the</b> và cụm <i>significant differences</i> cần <b>tính từ</b>: <i>same, only, core</i>."
+      ],
+      keep: ["same","only","core"],
+      vocab: [
+        "<b>the same</b> = giống nhau. Ý câu: ở <b>tất cả</b> các trường (<i>In all the universities</i>), người ta đều thấy <b>cùng</b> những khác biệt.",
+        "Bẫy <b>only</b>: <i>the only differences</i> nghe cũng hợp lý, nhưng cụm <i>In all the universities…</i> nhấn vào sự <b>nhất quán</b> giữa các trường → <i>same</i> là đáp án chuẩn."
+      ]
+    },
+    "4": {
+      ctx: "Not surprisingly perhaps, arts students read more ___, while science students…",
+      grammar: [
+        "Sau động từ <i>read (more)</i> cần <b>trạng từ</b>: <i>widely, deeply</i>."
+      ],
+      keep: ["widely","deeply"],
+      vocab: [
+        "<b>read widely</b> = đọc rộng, đọc nhiều loại tài liệu. Đối lập với vế sau: sinh viên khối tự nhiên tập trung vào <b>một vài</b> tài liệu (<i>a few</i>).",
+        "Bẫy <b>deeply</b>: <i>read deeply</i> (đọc sâu) lại gần nghĩa với cách học của sinh viên khối tự nhiên, nên phá vỡ phép đối lập <i>while</i>."
+      ]
+    },
+    "5": {
+      ctx: "…science students tended to concentrate on a few ___ texts.",
+      grammar: [
+        "Giữa <i>a few</i> và danh từ <i>texts</i> cần <b>tính từ</b>: <i>core</i>."
+      ],
+      keep: ["core"],
+      vocab: [
+        "<b>core texts</b> = các tài liệu cốt lõi, giáo trình chính. <i>core</i> = cốt lõi, trọng tâm (core subjects = các môn chính)."
+      ]
+    }
+  },
+  collocations: [
+    {a:"study", b:"habits"},
+    {a:"carry", b:"out"},
+    {a:"a team of", b:"researchers"},
+    {a:"significant", b:"differences"},
+    {a:"read", b:"widely"},
+    {a:"core", b:"texts"}
+  ],
+  vocabulary: [
+    {term:"carry out", type:"phrasal verb", mean:"tiến hành, thực hiện", ex:"The school carried out a survey on student stress."},
+    {term:"undergraduate", type:"noun", mean:"sinh viên đại học (chưa tốt nghiệp)", ex:"She is an undergraduate at Hanoi University."},
+    {term:"participate in", type:"verb + prep", mean:"tham gia vào", ex:"Over 500 students participated in the study."},
+    {term:"read widely", type:"collocation", mean:"đọc rộng, đọc nhiều loại tài liệu", ex:"Good writers read widely."},
+    {term:"core", type:"adjective", mean:"cốt lõi, chính", ex:"Maths and English are core subjects."}
+  ]
+},
+{
+  code: "RFIB0108",
+  category: "Education",
+  level: "Medium",
+  hidden: false,
+  type: "Drag and Drop – Fill in the Blanks",
+  topic: "Higher education · Benefits of a degree",
+  minutes: 5,
+  warmup: {
+    questions: [
+      "Theo bạn, có bằng đại học (a university degree) giúp ích gì khi đi xin việc?",
+      "Một đất nước có nhiều người học cao thì được lợi gì?"
+    ],
+    intro: "Đoạn văn nói về lợi ích của bằng cấp đại học (higher education qualifications) đối với từng cá nhân và đối với cả nước Úc. Khi đọc, hãy để ý hai nhóm lợi ích mà tác giả đưa ra."
+  },
+  passage: [
+    "Higher education qualifications provide a substantial", {b:"1"},
+    "in the labour market. Higher education", {b:"2"},
+    "are less likely to be", {b:"3"},
+    "and", {b:"4"},
+    "to have", {b:"5"},
+    "incomes than those without such qualifications. Having a highly educated", {b:"6"},
+    "can also lead to increased productivity and innovation and make Australia more", {b:"7"},
+    "in the global market."
+  ],
+  words: ["aggressive","workforce","weakness","grudge","competitive","tend","graduates","advantage","unemployed","higher"],
+  answers: {"1":"advantage","2":"graduates","3":"unemployed","4":"tend","5":"higher","6":"workforce","7":"competitive"},
+  explain: {
+    "1": {
+      ctx: "Higher education qualifications provide a substantial ___ in the labour market.",
+      grammar: [
+        "Sau <i>a substantial</i> (tính từ) cần <b>danh từ đếm được số ít</b>: <i>advantage, weakness, grudge, workforce</i>."
+      ],
+      keep: ["advantage","weakness","grudge","workforce"],
+      vocab: [
+        "<b>provide an advantage</b> = mang lại lợi thế. Câu sau liệt kê toàn điều tốt: ít thất nghiệp, thu nhập cao hơn.",
+        "<i>weakness</i> (điểm yếu) ngược nghĩa; <i>grudge</i> = mối hận thù."
+      ]
+    },
+    "2": {
+      ctx: "Higher education ___ are less likely to be…",
+      grammar: [
+        "<i>Higher education</i> làm danh từ bổ nghĩa → cần <b>danh từ chính</b>. Động từ <i>are</i> → <b>số nhiều</b>: <i>graduates</i>."
+      ],
+      keep: ["graduates"],
+      vocab: [
+        "<b>higher education graduates</b> = những người tốt nghiệp đại học, cao đẳng. Đối lập với <i>those without such qualifications</i> ở cuối câu."
+      ]
+    },
+    "3": {
+      ctx: "…are less likely to be ___ and…",
+      grammar: [
+        "Sau <b>be</b> cần <b>tính từ</b>: <i>unemployed, competitive, aggressive, higher</i>."
+      ],
+      keep: ["unemployed","competitive","aggressive","higher"],
+      vocab: [
+        "<b>less likely to be unemployed</b> = ít có khả năng bị thất nghiệp. Manh mối: <i>in the labour market</i> (thị trường lao động).",
+        "<i>competitive</i> dành cho ô 7; <i>aggressive</i> (hung hăng) không hợp."
+      ]
+    },
+    "4": {
+      ctx: "…less likely to be unemployed and ___ to have…",
+      grammar: [
+        "<b>and</b> nối hai cụm động từ cùng chủ ngữ <i>graduates</i>: <i>are less likely… and ___ to have</i> → cần <b>động từ</b> chia số nhiều, đi với <i>to + V</i>: <i>tend</i>."
+      ],
+      keep: ["tend"],
+      vocab: [
+        "<b>tend to do sth</b> = có xu hướng làm gì. Cách nói thận trọng khi đưa ra một nhận định chung từ số liệu."
+      ]
+    },
+    "5": {
+      ctx: "…tend to have ___ incomes than those without such qualifications.",
+      grammar: [
+        "Trước danh từ <i>incomes</i>, phía sau có <b>than</b> → cần <b>tính từ so sánh hơn</b>: <i>higher</i>."
+      ],
+      keep: ["higher"],
+      vocab: [
+        "<b>higher incomes</b> = thu nhập cao hơn. Dấu hiệu so sánh <i>than</i> chỉ ra ngay đáp án."
+      ]
+    },
+    "6": {
+      ctx: "Having a highly educated ___ can also lead to increased productivity…",
+      grammar: [
+        "Sau <i>a highly educated</i> cần <b>danh từ đếm được số ít</b>: <i>workforce, weakness, grudge</i>."
+      ],
+      keep: ["workforce","weakness","grudge"],
+      vocab: [
+        "<b>a highly educated workforce</b> = lực lượng lao động có trình độ cao. Đây là thứ làm tăng năng suất và đổi mới cho cả đất nước."
+      ]
+    },
+    "7": {
+      ctx: "…make Australia more ___ in the global market.",
+      grammar: [
+        "Cấu trúc <b>make + O + (more) adj</b> → cần <b>tính từ</b>: <i>competitive, aggressive</i>."
+      ],
+      keep: ["competitive","aggressive"],
+      vocab: [
+        "<b>competitive in the global market</b> = có sức cạnh tranh trên thị trường toàn cầu.",
+        "Bẫy <b>aggressive</b>: = hung hăng, quyết liệt (đôi khi tích cực trong <i>aggressive marketing</i>), nhưng không phải kết quả tự nhiên của năng suất và đổi mới."
+      ]
+    }
+  },
+  collocations: [
+    {a:"a substantial", b:"advantage"},
+    {a:"labour", b:"market"},
+    {a:"higher education", b:"graduates"},
+    {a:"a highly educated", b:"workforce"},
+    {a:"increased", b:"productivity"},
+    {a:"the global", b:"market"}
+  ],
+  vocabulary: [
+    {term:"qualification", type:"noun", mean:"bằng cấp, chứng chỉ", ex:"You need a teaching qualification to work here."},
+    {term:"labour market", type:"noun phrase", mean:"thị trường lao động", ex:"The labour market is tough for young people."},
+    {term:"be less likely to", type:"phrase", mean:"ít có khả năng", ex:"People who exercise are less likely to get sick."},
+    {term:"tend to", type:"verb", mean:"có xu hướng", ex:"Students tend to study harder before exams."},
+    {term:"workforce", type:"noun", mean:"lực lượng lao động", ex:"Women make up half of the workforce."}
+  ]
+},
+{
+  code: "RFIB0112",
+  category: "Education",
+  level: "Medium",
+  hidden: false,
+  type: "Drag and Drop – Fill in the Blanks",
+  topic: "Thinking skills · Critical thinking",
+  minutes: 5,
+  warmup: {
+    questions: [
+      "Theo bạn, tư duy phản biện (critical thinking) là gì?",
+      "Khi đọc một tin tức trên mạng, bạn có thường đặt câu hỏi về nó không?"
+    ],
+    intro: "Đoạn văn giải thích tư duy phản biện là gì qua một loạt hình ảnh so sánh. Khi đọc, hãy để ý các cặp từ đối lập mà tác giả dùng."
+  },
+  passage: [
+    "Critical thinking involves looking at something you may have seen many times and examining it from many different", {b:"1"},
+    "and perspectives. It involves going beyond the", {b:"2"},
+    "or beyond \"easy\" to seek new understanding and rare", {b:"3"},
+    ". It involves looking at common issues with uncommon eyes, known problems with new skepticism, everyday conflicts with probing", {b:"4"},
+    ", and daily challenges with greater attention to detail."
+  ],
+  words: ["curiosity","solutions","oblivious","caution","functions","angles","consequences","obvious"],
+  answers: {"1":"angles","2":"obvious","3":"solutions","4":"curiosity"},
+  explain: {
+    "1": {
+      ctx: "…examining it from many different ___ and perspectives.",
+      grammar: [
+        "Sau <i>many different</i> cần <b>danh từ số nhiều</b>, cùng loại với <i>perspectives</i>: <i>angles, solutions, functions, consequences</i>."
+      ],
+      keep: ["angles","solutions","functions","consequences"],
+      vocab: [
+        "<b>from many different angles</b> = từ nhiều góc độ khác nhau. Đi đôi với <i>perspectives</i> (quan điểm) như hai từ gần nghĩa.",
+        "<i>from different functions/consequences</i> không phải cách nói tự nhiên."
+      ]
+    },
+    "2": {
+      ctx: "It involves going beyond the ___ or beyond \"easy\"…",
+      grammar: [
+        "Sau <b>the</b> cần <b>danh từ</b>. Tính từ đứng sau <i>the</i> có thể làm danh từ (<i>the obvious</i> = những điều hiển nhiên)."
+      ],
+      keep: ["obvious","oblivious"],
+      vocab: [
+        "<b>go beyond the obvious</b> = vượt ra ngoài những điều hiển nhiên. Song song với <i>beyond \"easy\"</i>.",
+        "Bẫy <b>oblivious</b>: = không hay biết, không để ý (oblivious to the danger). Trông giống <i>obvious</i> nhưng nghĩa hoàn toàn khác."
+      ]
+    },
+    "3": {
+      ctx: "…to seek new understanding and rare ___.",
+      grammar: [
+        "Sau tính từ <i>rare</i> cần <b>danh từ</b>, nối với <i>understanding</i> bằng <i>and</i>."
+      ],
+      keep: ["solutions","consequences","functions","caution","curiosity"],
+      vocab: [
+        "<b>seek solutions</b> = tìm kiếm giải pháp. <i>Rare solutions</i> = những giải pháp hiếm có, độc đáo, kết quả của tư duy phản biện.",
+        "Người ta không \"tìm kiếm\" <i>consequences</i> (hậu quả)."
+      ]
+    },
+    "4": {
+      ctx: "…everyday conflicts with probing ___, and daily challenges with greater attention to detail.",
+      grammar: [
+        "Sau tính từ <i>probing</i> cần <b>danh từ</b>: <i>curiosity, caution</i>."
+      ],
+      keep: ["curiosity","caution"],
+      vocab: [
+        "<b>probing curiosity</b> = sự tò mò muốn tìm hiểu sâu. <i>probing</i> = dò hỏi, đi sâu vào. Hợp với tinh thần chung: <i>uncommon eyes, new skepticism</i>.",
+        "<i>caution</i> (sự thận trọng) không đi với <i>probing</i>."
+      ]
+    }
+  },
+  collocations: [
+    {a:"critical", b:"thinking"},
+    {a:"from different", b:"angles"},
+    {a:"go beyond", b:"the obvious"},
+    {a:"probing", b:"curiosity"},
+    {a:"attention", b:"to detail"},
+    {a:"new", b:"skepticism"}
+  ],
+  vocabulary: [
+    {term:"critical thinking", type:"noun phrase", mean:"tư duy phản biện", ex:"Critical thinking is important in the age of fake news."},
+    {term:"angle", type:"noun", mean:"góc độ, góc nhìn", ex:"Let's look at the problem from a different angle."},
+    {term:"the obvious", type:"noun (the + adj)", mean:"điều hiển nhiên", ex:"Don't just state the obvious in your essay."},
+    {term:"skepticism", type:"noun", mean:"sự hoài nghi", ex:"Treat online health advice with skepticism."},
+    {term:"attention to detail", type:"phrase", mean:"sự chú ý đến chi tiết", ex:"This job needs great attention to detail."}
+  ]
+},
+{
+  code: "RFIB0132",
+  category: "Education",
+  level: "Hard",
+  hidden: false,
+  type: "Drag and Drop – Fill in the Blanks",
+  topic: "Reading · Writing vs conversation",
+  minutes: 5,
+  warmup: {
+    questions: [
+      "Bạn thấy hiểu ý người khác qua nói chuyện trực tiếp dễ hơn hay qua đọc tin nhắn, bài viết dễ hơn?",
+      "Khi đọc, bạn bỏ lỡ những gì mà khi nghe người khác nói trực tiếp bạn sẽ nhận được?"
+    ],
+    intro: "Đoạn văn so sánh việc tiếp nhận ý tưởng qua đọc với qua hội thoại và thảo luận nhóm. Khi đọc, hãy để ý vì sao tác giả cho rằng người đọc gặp khó khăn hơn người nghe."
+  },
+  passage: [
+    "The writer-or, for that matter, the speaker conceives his thought whole, as a unity, but must express it in a line of words; the reader — or listener — must take this line of symbols and from it", {b:"1"},
+    "the original wholeness of thought. There is", {b:"2"},
+    "difficulty in conversation, because the listener receives innumerable cues from the physical expressions of the speaker; there is a dialogue, and the listener can", {b:"3"},
+    "in at any time. The advantage of group discussion is that people can overcome linear sequence of words by", {b:"4"},
+    "on ideas from different directions; which makes for wholeness of thought. But the reader is confronted by line upon line of printed symbols, without benefits of physical", {b:"5"},
+    "and emphasis or the possibility of dialogue or discussion."
+  ],
+  words: ["much","tone","converging","little","concentrating","reconstruct","reshape","cut","get","installation"],
+  answers: {"1":"reconstruct","2":"little","3":"cut","4":"converging","5":"tone"},
+  explain: {
+    "1": {
+      ctx: "…must take this line of symbols and from it ___ the original wholeness of thought.",
+      grammar: [
+        "<b>and</b> nối với <i>take</i> sau <i>must</i>: <i>must take… and (must) ___</i> → cần <b>động từ nguyên thể</b>, có tân ngữ <i>the original wholeness</i>.",
+        "Còn lại: <i>reconstruct, reshape, cut, get</i>."
+      ],
+      keep: ["reconstruct","reshape","cut","get"],
+      vocab: [
+        "<b>reconstruct</b> = dựng lại, tái tạo lại (như ban đầu). Người viết <b>tách</b> ý thành chuỗi từ, người đọc phải <b>ghép lại</b> thành ý trọn vẹn (<i>original</i>).",
+        "Bẫy <b>reshape</b>: = định hình lại, làm cho <b>khác đi</b>. Mâu thuẫn với <i>original</i> (nguyên bản)."
+      ]
+    },
+    "2": {
+      ctx: "There is ___ difficulty in conversation, because the listener receives innumerable cues…",
+      grammar: [
+        "Trước danh từ không đếm được <i>difficulty</i> cần từ chỉ lượng: <i>much, little</i>."
+      ],
+      keep: ["much","little"],
+      vocab: [
+        "<b>little difficulty</b> = ít khó khăn. Lý do phía sau là điều <b>có lợi</b>: người nghe nhận được vô số tín hiệu từ cử chỉ, nét mặt.",
+        "<i>much</i> ngược logic; và trong câu khẳng định, <i>much</i> ít dùng một mình như vậy."
+      ]
+    },
+    "3": {
+      ctx: "…and the listener can ___ in at any time.",
+      grammar: [
+        "Sau <b>can</b> cần <b>động từ nguyên thể</b>; theo sau là tiểu từ <b>in</b> → cụm động từ: <i>cut in, get in</i>."
+      ],
+      keep: ["cut","get"],
+      vocab: [
+        "<b>cut in</b> = chen ngang, ngắt lời để nói. Trong hội thoại (<i>there is a dialogue</i>), người nghe có thể chen vào hỏi bất cứ lúc nào.",
+        "<i>get in</i> = vào trong (xe, nhà), không dùng cho việc tham gia cuộc nói chuyện."
+      ]
+    },
+    "4": {
+      ctx: "…overcome linear sequence of words by ___ on ideas from different directions…",
+      grammar: [
+        "Sau giới từ <b>by</b> cần <b>V-ing</b>; phía sau là <b>on</b>: <i>converging, concentrating</i>."
+      ],
+      keep: ["converging","concentrating"],
+      vocab: [
+        "<b>converge on sth</b> = hội tụ về một điểm. Manh mối: <i>from different directions</i>. Nhiều người tiếp cận ý tưởng từ nhiều hướng rồi cùng hội tụ.",
+        "Bẫy <b>concentrating on</b>: = tập trung vào. Đúng ngữ pháp nhưng không đi với ý \"từ nhiều hướng khác nhau\"."
+      ]
+    },
+    "5": {
+      ctx: "…without benefits of physical ___ and emphasis…",
+      grammar: [
+        "Sau tính từ <i>physical</i> cần <b>danh từ</b>, nối với <i>emphasis</i> bằng <i>and</i>: <i>tone, installation</i>."
+      ],
+      keep: ["tone","installation"],
+      vocab: [
+        "<b>tone</b> = giọng điệu. <i>Tone and emphasis</i> (giọng điệu và sự nhấn mạnh) là những thứ người nghe có mà người đọc không có.",
+        "<i>installation</i> = sự lắp đặt. Không liên quan."
+      ]
+    }
+  },
+  collocations: [
+    {a:"conceive", b:"a thought"},
+    {a:"innumerable", b:"cues"},
+    {a:"cut", b:"in"},
+    {a:"converge", b:"on ideas"},
+    {a:"tone", b:"and emphasis"},
+    {a:"group", b:"discussion"}
+  ],
+  vocabulary: [
+    {term:"conceive", type:"verb", mean:"hình thành (ý tưởng) trong đầu", ex:"He conceived the idea for the app in a coffee shop."},
+    {term:"reconstruct", type:"verb", mean:"dựng lại, tái tạo lại", ex:"Police tried to reconstruct the events of that night."},
+    {term:"cut in", type:"phrasal verb", mean:"chen ngang, ngắt lời", ex:"Sorry to cut in, but I have a question."},
+    {term:"converge on", type:"verb + prep", mean:"hội tụ về", ex:"Fans converged on the stadium."},
+    {term:"tone", type:"noun", mean:"giọng điệu", ex:"I didn't like the tone of his email."}
+  ]
 }
 ];
